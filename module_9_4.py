@@ -2,7 +2,7 @@ from random import choice
 
 first = 'Мама мыла раму'
 second = 'Рамена мало было'
-total = list(map(lambda x, y: x == 'а', first, second))
+total = list(map(lambda x, y: x == y, first, second))
 print(total)
 
 def get_advanced_writer(file_name):
